@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="happy birthday sean"
+            android:textAllCaps="true"
+            android:textSize="46dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/birthdayRed"
+            android:layout_marginTop="55dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dreamTime"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@color/background"
+        >
+
+        <ImageView
+            android:src="@drawable/cat"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_gravity="bottom"
+            android:scaleType="fitEnd"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Create your own Card"
+            android:textColor="@color/textColor"
+            android:textSize="24dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp" />
+    </LinearLayout>
+
+    
+</LinearLayout>
